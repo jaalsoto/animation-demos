@@ -1,0 +1,20 @@
+
+=================
+Executive summary
+=================
+
+This project consists of golfed HTML5 canvas animations written with only 140
+characters of JavaScript. 
+
+The animations use the default shortcuts provided by Dwitter:
+
+t: Elapsed time in seconds.
+S: Shorthand for Math.sin.
+C: Shorthand for Math.cos.
+T: Shorthand for Math.tan.
+R: Function that generates rgba-strings, usage ex.: R(255, 255, 255, 0.5)
+c: A 1920x1080 canvas.
+x: A 2D context for that canvas.
+
+The code is placed within a function and called 60 times per second.
+
